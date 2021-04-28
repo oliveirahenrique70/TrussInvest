@@ -1,0 +1,9 @@
+os
+ipywidgets
+pandas
+bqplot
+ipympl
+ipyvolume
+scipy
+voila
+IPython.display
