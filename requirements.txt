@@ -1,4 +1,3 @@
-glob
 ipywidgets
 pandas
 bqplot
