@@ -16,11 +16,12 @@ def Get_Trades():
     # Remove receipt files
     all_files.remove('BR Receipt.csv')
     all_files.remove('US Futures Receipt.csv')
+    all_files.remove('All Trades Receipt.csv')
 
     # Create list of dfs
     list_of_dfs = [pd.read_csv(filename, index_col=None, error_bad_lines=False) for filename in all_files]
     
-    #Return output
+    # Return output
     return(list_of_dfs)
 
 # 2. Set table negative values as red
