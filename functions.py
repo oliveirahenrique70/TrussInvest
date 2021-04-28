@@ -12,7 +12,10 @@ def Get_Trades():
 
     # Get files names
     all_files = glob.glob('*.csv')
-
+    
+    # Remove receipt files
+    all_files.remove('Trades BR Receipt.csv')
+    
     # Create list of dfs
     list_of_dfs = [pd.read_csv(filename, index_col=None, error_bad_lines=False) for filename in all_files]
     
