@@ -8,7 +8,7 @@ import pandas as pd
 import ipywidgets as widgets
 
 # 1. Function to get trades
-def Get_Trades(x):
+def Get_Trades():
 
     # Get files names
     all_files = glob.glob('*.csv')
