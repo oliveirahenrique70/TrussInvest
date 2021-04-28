@@ -7,4 +7,3 @@ scipy
 voila
 datetime
 plotly
-glob
