@@ -1,4 +1,4 @@
-Date,Comm,Register Fee,Exc Fee,Receipt Value,FX Description,FX Value,FX Rate,Receipt Value Cum Sum,FX Value Cum Sum,Settlement Cum Sum,Total Cum Sum
+Date,Comm,Reg Fee,Exc Fee,Receipt Value,FX Description,FX Value,FX Rate,Receipt Value Cum Sum,FX Value Cum Sum,Settlement Cum Sum,Total Cum Sum
 23/12/2020,22.18,138.32,59.0,34444.0,-,0.0,-,34444.0,0.0,0.0,34444.0
 28/12/2020,32.38,233.41,100.02,96233.87,-,0.0,-,130677.87,0.0,34444.0,130677.87
 29/12/2020,56.16,676.07,289.96,-6262.41,FX - Sell BRL,-600000.0,5.21,124415.45999999999,-600000.0,-469322.13,-475584.54000000004
