@@ -6,6 +6,8 @@ import os
 import glob
 import pandas as pd
 import ipywidgets as widgets
+from tkinter import *  
+from tkinter import messagebox  
 
 # 1. Function to get trades
 def Get_Trades():
@@ -52,3 +54,19 @@ def Button_Clean():
     
     # Return output
     return(output)
+
+# 6. Error warning message
+def Warning_Message():
+    
+            # Iniciate warning message box
+            msg = Tk()  
+            
+            # Set warning message size
+            msg.geometry("100x100") 
+            
+            # Set warning message
+            messagebox.showerror("Error","Please select one trade!")  
+            
+            # Close warning message box
+            msg.destroy() 
+        
