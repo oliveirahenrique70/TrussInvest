@@ -7,3 +7,4 @@ scipy
 voila
 datetime
 plotly
+tkinter
