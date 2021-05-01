@@ -52,3 +52,6 @@ def Button_Clean():
     
     # Return output
     return(output)
+
+# 6. Display red and bold text
+def prRed(skk): print('\033[1m' + "\033[91m {}\033[00m" .format(skk))
