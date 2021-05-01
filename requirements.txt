@@ -7,3 +7,5 @@ scipy
 voila
 datetime
 plotly
+tkinter
+pymsgbox
